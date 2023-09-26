@@ -117,7 +117,7 @@ $weekday = date("l");
 $weekday = strtolower($weekday);switch($weekday) { case 'monday': $weekday = "\033[1;33mThứ\033[1;36m 2"; break; case 'tuesday': $weekday = "\033[1;33mThứ\033[1;36m 3"; break; case 'wednesday': $weekday = "\033[1;33mThứ \033[1;36m4"; break; case 'thursday': $weekday = "\033[1;33mThứ \033[1;36m5"; break; case 'friday': $weekday = "\033[1;33mThứ\033[1;36m 6"; break; case 'saturday': $weekday = "\033[1;33mThứ \033[1;36m7"; break; default: $weekday = "\033[1;33mCN"; break;}
 @system('clear');
 //nhapkey
-$key = file('https://pastebin.com/raw/4G0HF7WN');  //Đổi Key Chỗ này//
+$key = file('https://raw.githubusercontent.com/hieuxyz00/njs.txt/main/Key');  //Đổi Key Chỗ này//
 while(true) {
 	echo "\033[1;37m~\033[1;31m [\033[1;32mĐường Link Lấy Key\033[1;31m]\033[1;37m Tool: https://web1s.vip/Yl2bbscfCD \033[1;36m\n";//ANH EM ĐỔI THÀNH LINK MESS HOẶC LINK ZALO ///
 echo "\033[1;37m~\033[1;31m [\033[1;32mApiKey\033[1;31m]\033[1;37m => \033[1;36m";
