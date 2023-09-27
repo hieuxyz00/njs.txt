@@ -98,7 +98,7 @@ $banner="\r
                         \033[1;92mTOOL BY NGUYỄN VĂN HIẾU
 
                         \033[1;95m YouTube : 
-                        \033[1;91m 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔 : 𝚑𝚝𝚝𝚙𝚜://𝚠𝚠𝚠.𝚏𝚊𝚌𝚎𝚋𝚘𝚘𝚔.𝚌𝚘𝚖/
+                        \033[1;91m 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔 : https://m.facebook.com/profile.php/?id=100070430224280&locale=vi_VN
                         \033[0;33m ZaLo : 
                         \033[0;35m𝙇𝙞𝙣𝙠 𝘽𝙤𝙭 : 
                         \033[0;32m𝙶𝚖𝚊𝚒𝚕 : khongbt446@gmail.com
@@ -127,7 +127,7 @@ echo "\033[1;37m~ \033[1;32mApiKey Chính Xác\n";
 sleep(2);
 break;
 } else {
-	@system('xdg-open https://facebook.com/');//CHỖ NÀY ANH EM ĐỔI THÀNH LIÊN KẾT QUA PROFILE FB HAY GR ZALO CỦA ANH EM ///
+	@system('xdg-open https://m.facebook.com/profile.php/?id=100070430224280&locale=vi_VN');//CHỖ NÀY ANH EM ĐỔI THÀNH LIÊN KẾT QUA PROFILE FB HAY GR ZALO CỦA ANH EM ///
 echo "\033[1;37m~ \033[1;31mNếu Không Biết Hãy Vào Box Zalo Xem Nhé Link: \n";}//LINK BOX //
 }@system('clear');
 //ANH EM KHÔNG TẠO BANNER THÌ XOÁ DÒNG NÀY NHA ///
