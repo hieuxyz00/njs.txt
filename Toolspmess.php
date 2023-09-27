@@ -136,7 +136,7 @@ function countdown($key, $ngay, $thang, $nam) {
   $remain = ceil((mktime(0, 0, 0, $ngay, $thang, $nam) - time()) / 86400);
   if ($remain > 0) {
     echo "\033[1;31m┌────────────────────────────────┐\n";
-    echo "\033[1;31m│\033[1;32m Còn \033[1;36m".$remain."\033[1;32m Ngày Nữa Là Hết Hạn \033[1;35m".$key."\033[1;31m │\n\033[1;31m│ \033[1;32mNgày Dùng Tool: \033[1;33m26/09/2023 \033[1;31m    │\n\033[1;31m│ \033[1;32mHạn Sử Dụng: \033[1;33m26/10/2023\033[1;31m        │\n";
+    echo "\033[1;31m│\033[1;32m Còn \033[1;36m".$remain."\033[1;32m Ngày Nữa Là Hết Hạn \033[1;35m".$tool."\033[1;31m│\n\033[1;31m│ \033[1;32mNgày Dùng Tool: \033[1;33m26/09/2023 \033[1;31m    │\n\033[1;31m│ \033[1;32mHạn Sử Dụng: \033[1;33m26/10/2023\033[1;31m        │\n";
     echo "\033[1;31m├─────────────────┬──────────────┘ \n";
   } else {
   	@system('xdg-open https://facebook.com/');//NÊN ĐỔI THÀNH LINK MESS HOẶC ZALO//
